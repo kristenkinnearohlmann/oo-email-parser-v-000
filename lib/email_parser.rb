@@ -8,6 +8,14 @@ class EmailAddressParser
 
   def initalize(email_addresses)
     @email_addresses = email_addresses
+    parse
+  end
+
+  def parse
+      if @email_addresses.include?(", ") then
+        @email_addresses.sub(", "," ")
+      end
+      
   end
 
 end
