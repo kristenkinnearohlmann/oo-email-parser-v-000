@@ -16,7 +16,7 @@ class EmailAddressParser
         @email_addresses.sub!(", "," ")
       end
 
-      @emails = @email_addresses.split(" ").uniq
+      @email_addresses.split(" ").uniq
   end
 
 end
