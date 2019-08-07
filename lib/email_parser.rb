@@ -16,6 +16,8 @@ class EmailAddressParser
         @email_addresses.sub(", "," ")
       end
 
+      @email_addresses.split(" ")
+
   end
 
 end
