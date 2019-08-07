@@ -15,7 +15,7 @@ class EmailAddressParser
       if @email_addresses.include?(", ") then
         @email_addresses.sub(", "," ")
       end
-      
+
   end
 
 end
